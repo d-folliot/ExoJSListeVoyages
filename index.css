@@ -1,0 +1,74 @@
+:root{
+    --cardbg : #AAA;
+    --butbg : #97D;
+    --altfont : #EEE;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.consigne{
+    margin: 10px;
+    font-size: 1.5em; 
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttonholder{
+    margin-left: 10px;
+}
+.mybutton{
+    min-width: 50px;
+    margin: 10px;
+    font-size: 1em; 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.imgarticle{
+    width:350;
+    height:197;
+    object-fit: cover;
+    
+    border-radius: 15px;
+}
+
+.item{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--cardbg);
+    border-radius: 15px ;
+    max-width: 50%;
+    margin:1em;
+    border: 3px solid var(--butbg)
+}
+.content{
+    display:flex;
+    flex-direction: row;
+    margin:1em;
+    width: 100%;
+}
+.content div {
+    width: 100%;
+}
+
+.title{
+    color: var(--altfont);
+    margin: 1em 0 0 1em;
+}
+
+.description{
+    text-align: justify;
+    margin: 1em;
+    padding:1em;
+    height: 120px;
+    overflow-y: scroll;
+}
+.butart{
+    margin-left:75%;
+    background-color: var(--butbg);
+    color: var(--altfont);
+    padding : 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+}
